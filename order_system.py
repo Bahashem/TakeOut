@@ -35,7 +35,7 @@ def place_order(menu):
         for food_category, options in menu.items():
             # TODO: Loop through the options for each food category, extracting the
             # meal and the price
-            for meal, price in options.item():
+            for meal, price in options.items():
                 # TODO: Print the menu item number, food category, meal, and price
                 print_menu_line(i, food_category, meal, price)
                 # TODO: Update the menu selection number
